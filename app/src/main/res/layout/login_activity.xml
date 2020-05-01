@@ -84,18 +84,34 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="113dp"
         tools:layout_editor_absoluteY="453dp" />
+    <Button
+        android:id="@+id/Buttonalready"
+        android:layout_width="311dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#0001FC"
+        android:elevation="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="543dp" />
+
     <TextView
-        android:id="@+id/login1"
+        android:id="@+id/already_hav"
         android:layout_width="276dp"
-        android:layout_height="21dp"
+        android:layout_height="27dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:gravity="center_horizontal|top"
-        android:text="@string/login1"
+        android:text="@string/already_hav"
+        android:translationZ="90dp"
         android:textAppearance="@style/already_hav"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="543dp" />
+        tools:layout_editor_absoluteY="543dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Buttonalready"
+        app:layout_constraintEnd_toEndOf="@+id/Buttonalready"
+        app:layout_constraintStart_toStartOf="@+id/Buttonalready"/>
 
     <TextView
         android:id="@+id/skip_for_no"
