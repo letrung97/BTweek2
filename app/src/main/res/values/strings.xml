@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BTweek2</string>
+    <string name="latech">LATECH</string>
+    <string name="tech_market">TECH MARKET</string>
+    <string name="let_s_start">Let\'s start</string>
+    <string name="skip_for_no">Skip for now</string>
+    <string name="connexion">Connexion</string>
+    <string name="create_an_a">Create an account</string>
+    <string name="connectGG">Connect with Google</string>
+    <string name="connectfb">Connect with Facebook</string>
+    <string name="already_hav">Already have an account ? <b>Login</b></string>
+    <string name="creatac">Create an account</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="validate">Validate</string>
+    <string name="login">Login</string>
+    <string name="login1">Don\'t have an account? Sign-up?</string>
+</resources>

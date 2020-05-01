@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0001FC">
+
+    <TextView
+        android:id="@+id/creatac"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/creatac"
+        android:textAppearance="@style/creatac"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="85dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/full_name"
+        android:textAppearance="@style/full_name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="173dp"
+        tools:ignore="MissingConstraints" 
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="85dp"
+        android:layout_height="21dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="226dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/email"
+        android:textAppearance="@style/full_name"/>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="85dp"
+        android:layout_height="21dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="308dp"
+        android:gravity="top"
+        android:text="@string/pass"
+        android:textAppearance="@style/full_name"/>
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="311dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:elevation="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <TextView
+        android:id="@+id/validate"
+        android:layout_width="185dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/validate"
+        android:textAppearance="@style/validate"
+        android:translationZ="90dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="453dp" />
+    <TextView
+        android:id="@+id/already_hav"
+        android:layout_width="276dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/already_hav"
+        android:textAppearance="@style/already_hav"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <TextView
+        android:id="@+id/skip_for_no"
+        android:layout_width="276dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/skip_for_no"
+        android:textAppearance="@style/skip_for_no"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="631dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
